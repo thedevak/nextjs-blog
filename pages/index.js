@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <Image src="/atom-logo-feature.webp" width={1200} height={900} />
+            <Image src="/atom-logo-feature.webp" width={600} height={450} />
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
