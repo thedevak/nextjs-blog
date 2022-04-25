@@ -1,16 +1,18 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Design & Development Blog</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <Link href="/">Next Blog</Link>
         </h1>
 
         <p className={styles.description}>
@@ -20,6 +22,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
+            <Image src="/atom-logo-feature.webp" width={1200} height={900} />
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
